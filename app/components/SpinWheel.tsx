@@ -9,9 +9,29 @@ const prizes = [
   "Lendl Bacolor",
   "Kim Sollano",
   "Lance Filler",
+  "Aila Valiente",
+  "Angelo Penales",
+  "Ariane Malalad",
+  "Jem Riego",
+  "John Roble",
+  "John Ang",
+  "John Paul Cano",
+  "Paul Atienza",
+  "Chantel Santos",
+  "Christian Marcelo",
+  "James Indino",
+  "Juphet Divino",
+  "Jeff Bautista",
+  "Kevin Janer",
+  "Mary Darl Esguerra",
+  "Mel Yuson",
+  "Jaimee Chrysteen Palpal-Latic",
+  "Joriz Alfred Recto",
+  "Kent Ronan Francelino",
+  "John Corporal"
 ];
 
-const coolKid = true; // if true, always land on Miguel Li
+const coolKid = false; // if true, always land on Miguel Li
 
 export default function GrayboxRaffle() {
   const [spinning, setSpinning] = useState(false);
