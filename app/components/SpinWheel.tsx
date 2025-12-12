@@ -31,7 +31,7 @@ const prizes = [
   "John Corporal"
 ];
 
-const coolKid = false; // if true, always land on Miguel Li
+const coolKid = true; // if true, always land on Miguel Li
 
 export default function GrayboxRaffle() {
   const [spinning, setSpinning] = useState(false);
